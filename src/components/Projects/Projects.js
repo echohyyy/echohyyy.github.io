@@ -2,11 +2,11 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
-import leaf from "../../Assets/Projects/leaf.png";
-import emotion from "../../Assets/Projects/emotion.png";
-import editor from "../../Assets/Projects/codeEditor.png";
+import blackwhite from "../../Assets/Projects/blackwhite.png";
+import insta485 from "../../Assets/Projects/insta485.png";
+import mcareer from "../../Assets/Projects/mcareer.png";
 import raveler from "../../Assets/Projects/raveler.png";
-import suicide from "../../Assets/Projects/suicide.png";
+import ask485 from "../../Assets/Projects/ask485.png";
 import unravel from "../../Assets/Projects/unravel.png";
 
 function Projects() {
@@ -18,61 +18,71 @@ function Projects() {
           My Recent <strong className="purple">Works </strong>
         </h1>
         <p style={{ color: "white" }}>
-          Here are a few projects I've worked on recently.
+          Here are a few projects I've worked on recently. Due to academic integrety concerns, access to the implementation of some projects will be sent on request.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
-          <Col md={6} className="project-card">
+          <Col md={4} className="project-card">
             <ProjectCard
               imgPath={raveler}
               isBlog={false}
               title="Raveler"
               description="A 2D multi-player emotional platform game built with Unity. It tells a love story about the journey of a young couple bonded by their predestined relationship."
-              ghLink="https://github.com/Hilbert-Yaa/elm-unravel"
-              demoLink="https://hilbert-yaa.github.io/elm-unravel/"
+              ghLink="https://github.com/jiyuchennn/eecs494-p3/tree/main"
+              demoLink="https://echoooooo.itch.io/raveler"
             />
           </Col>
 
-          <Col md={6} className="project-card">
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={blackwhite}
+              isBlog={false}
+              title="Black & White"
+              description="A 2D platform puzzle game built with Unity. The player should solve puzzles, collect gems and save the poluted kingdom."
+              ghLink="https://github.com/echohyyy/eecs494-p2-BlackAndWhite"
+              demoLink="https://echoooooo.itch.io/blackwhite"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
             <ProjectCard
               imgPath={unravel}
               isBlog={false}
               title="Unravel"
               description="A 3D puzzle game built with Elm-lang and WebGL. It tells a story about the inner world of a girl with fear of crowds and how she gradually discovers the goodwell in people's heart."
-              ghLink="https://github.com/soumyajit4419/Editor.io"
-              demoLink="https://editor.soumya-jit.tech/"
+              ghLink="https://github.com/Hilbert-Yaa/elm-unravel"
+              demoLink="https://hilbert-yaa.github.io/elm-unravel/"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={leaf}
+              imgPath={mcareer}
               isBlog={false}
-              title="Plant AI"
-              description="Used the plant disease dataset from Kaggle and trained a image classifer model using 'PyTorch' framework using CNN and Transfer Learning with 38 classes of various plant leaves. The model was successfully able to detect diseased and healthy leaves of 14 unique plants. I was able to achieve an accuracy of 98% by using Resnet34 pretrained model."
-              ghLink="https://github.com/soumyajit4419/Plant_AI"
-              demoLink="https://plant49-ai.herokuapp.com/"
+              title="MCareer"
+              description="An mobile application prototype to support undergraduate students' career development. We conducted a user-centered design process and developed the prototype with Figma."
+              // ghLink="https://github.com/soumyajit4419/Plant_AI"
+              demoLink="https://www.youtube.com/watch?v=j6whB2uk0IU"
             />
           </Col>
 
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={suicide}
-              isBlog={false}
-              title="Ai For Social Good"
-              description="Using 'Natural Launguage Processing' for the detection of suicide-related posts and user's suicide ideation in cyberspace  and thus helping in sucide prevention."
-              ghLink="https://github.com/soumyajit4419/AI_For_Social_Good"
-            // demoLink="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley" <--------Please include a demo link here
-            />
-          </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={emotion}
+              imgPath={ask485}
               isBlog={false}
-              title="Face Recognition and Emotion Detection"
-              description="Trained a CNN classifier using 'FER-2013 dataset' with Keras and tensorflow backened. The classifier sucessfully predicted the various types of emotions of human. And the highest accuracy obtained with the model was 60.1%.
-              Then used Open-CV to detect the face in an image and then pass the face to the classifer to predict the emotion of a person."
-              ghLink="https://github.com/soumyajit4419/Face_And_Emotion_Detection"
+              title="Web Search Engine"
+              description="A scalable search engine with features like  text analysis (tf-idf) and link analysis (PageRank), and parallel data processing with MapReduce."
+              ghLink="https://github.com/echohyyy/p5-search-engine"
+            // demoLink="https://blogs.soumya-jit.tech/"      <--------Please include a demo link here 
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={insta485}
+              isBlog={false}
+              title="Instagram Replicate"
+              description="An Instagram clone implemented with client-side dynamic pages built with JavaScript, AJAX and REST API."
+              ghLink="https://github.com/echohyyy/p3-insta485-clientside"
             // demoLink="https://blogs.soumya-jit.tech/"      <--------Please include a demo link here 
             />
           </Col>
