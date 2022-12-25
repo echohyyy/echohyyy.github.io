@@ -11,6 +11,12 @@ import ferriswheel from "../../Assets/Gallery/ferriswheel.png";
 import windy from "../../Assets/Gallery/windy.jpg";
 import fish1 from "../../Assets/Gallery/fish1.jpg";
 import fish2 from "../../Assets/Gallery/fish2.jpg";
+import quarantine from "../../Assets/Gallery/quarantine.jpg";
+import SantaUno from "../../Assets/Gallery/SantaUno.jpg";
+import lubixing from "../../Assets/Gallery/lubixing.jpg";
+import linjingheng from "../../Assets/Gallery/linjingheng.jpg";
+import YoshikoKawashima from "../../Assets/Gallery/YoshikoKawashima.jpg";
+
 
 function Gallery() {
   return (
@@ -46,14 +52,16 @@ function Gallery() {
             </Col>
           </Row>
           <Row style={{ justifyContent: "center", paddingBottom: "5px" }}>
-            <Col md={6} className="project-card">
+            <Col md={8} className="project-card">
               <GalleryCard
                 imgPath={fish1}
                 title="Untitled - Big Fish & Begonia"
               // description="A 3D puzzle game built with Elm-lang and WebGL. It tells a story about the inner world of a girl with fear of crowds and how she gradually discovers the goodwell in people's heart."
               />
             </Col>
-            <Col md={6} className="project-card">
+          </Row>
+          <Row style={{ justifyContent: "center", paddingBottom: "5px" }}>
+            <Col md={8} className="project-card">
               <GalleryCard
                 imgPath={fish2}
                 title="Untitled - Big Fish & Begonia"
@@ -74,10 +82,10 @@ function Gallery() {
         <div style={{ paddingBottom: "10px" }}>
           <h2 style={{ color: "white" }}> <strong className="purple">Original Art</strong></h2>
           <Row style={{ justifyContent: "center", paddingBottom: "5px" }}>
-            <Col md={4} className="project-card">
+            <Col md={8} className="project-card">
               <GalleryCard
-                imgPath={dashduck}
-                title="Kitten & Shark"
+                imgPath={quarantine}
+                title="Quarantine"
               // description="A 3D puzzle game built with Elm-lang and WebGL. It tells a story about the inner world of a girl with fear of crowds and how she gradually discovers the goodwell in people's heart."
               />
             </Col>
@@ -88,10 +96,37 @@ function Gallery() {
               // description="A 3D puzzle game built with Elm-lang and WebGL. It tells a story about the inner world of a girl with fear of crowds and how she gradually discovers the goodwell in people's heart."
               />
             </Col>
-            <Col md={4} className="project-card">
+          </Row>
+          <Row style={{ justifyContent: "center", paddingBottom: "5px" }}>
+
+            <Col md={6} className="project-card">
               <GalleryCard
-                imgPath={dashduck}
-                title="Kitten & Shark"
+                imgPath={lubixing}
+                title="Lu Bixing - Can Ci Pin"
+              // description="A 3D puzzle game built with Elm-lang and WebGL. It tells a story about the inner world of a girl with fear of crowds and how she gradually discovers the goodwell in people's heart."
+              />
+            </Col>
+            <Col md={6} className="project-card">
+              <GalleryCard
+                imgPath={linjingheng}
+                title="Lin Jingheng - Can Ci Pin"
+              // description="A 3D puzzle game built with Elm-lang and WebGL. It tells a story about the inner world of a girl with fear of crowds and how she gradually discovers the goodwell in people's heart."
+              />
+            </Col>
+          </Row>
+          <Row style={{ justifyContent: "center", paddingBottom: "5px" }}>
+
+            <Col md={6} className="project-card">
+              <GalleryCard
+                imgPath={YoshikoKawashima}
+                title="Yoshiko Kawashima"
+              // description="A 3D puzzle game built with Elm-lang and WebGL. It tells a story about the inner world of a girl with fear of crowds and how she gradually discovers the goodwell in people's heart."
+              />
+            </Col>
+            <Col md={6} className="project-card">
+              <GalleryCard
+                imgPath={SantaUno}
+                title="Santa Uno"
               // description="A 3D puzzle game built with Elm-lang and WebGL. It tells a story about the inner world of a girl with fear of crowds and how she gradually discovers the goodwell in people's heart."
               />
             </Col>
@@ -116,7 +151,7 @@ function Gallery() {
             <Col md={8} className="project-card">
               <GalleryCard
                 imgPath={windy}
-                title="Being the Wind"
+                title="Storm"
               // description="A 3D puzzle game built with Elm-lang and WebGL. It tells a story about the inner world of a girl with fear of crowds and how she gradually discovers the goodwell in people's heart."
               />
             </Col>
