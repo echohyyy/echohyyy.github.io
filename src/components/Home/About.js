@@ -30,7 +30,7 @@ function About() {
             style={{ paddingTop: "120px", paddingBottom: "50px" }}
             className="about-img"
           >
-            <img src={laptopImg} alt="about" className="img-fluid" style={{ borderRadius: "200px" }} />
+            <img src={laptopImg} alt="about" className="img-fluid" style={{ width: "300px", borderRadius: "150px" }} />
           </Col>
         </Row>
         <h1 className="project-heading">
