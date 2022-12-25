@@ -52,6 +52,23 @@ function Gallery() {
             </Col>
           </Row>
           <Row style={{ justifyContent: "center", paddingBottom: "5px" }}>
+
+            <Col md={6} className="project-card">
+              <GalleryCard
+                imgPath={lubixing}
+                title="Lu Bixing - Can Ci Pin"
+              // description="A 3D puzzle game built with Elm-lang and WebGL. It tells a story about the inner world of a girl with fear of crowds and how she gradually discovers the goodwell in people's heart."
+              />
+            </Col>
+            <Col md={6} className="project-card">
+              <GalleryCard
+                imgPath={linjingheng}
+                title="Lin Jingheng - Can Ci Pin"
+              // description="A 3D puzzle game built with Elm-lang and WebGL. It tells a story about the inner world of a girl with fear of crowds and how she gradually discovers the goodwell in people's heart."
+              />
+            </Col>
+          </Row>
+          <Row style={{ justifyContent: "center", paddingBottom: "5px" }}>
             <Col md={8} className="project-card">
               <GalleryCard
                 imgPath={fish1}
@@ -93,23 +110,6 @@ function Gallery() {
               <GalleryCard
                 imgPath={dashduck}
                 title="Kitten & Shark"
-              // description="A 3D puzzle game built with Elm-lang and WebGL. It tells a story about the inner world of a girl with fear of crowds and how she gradually discovers the goodwell in people's heart."
-              />
-            </Col>
-          </Row>
-          <Row style={{ justifyContent: "center", paddingBottom: "5px" }}>
-
-            <Col md={6} className="project-card">
-              <GalleryCard
-                imgPath={lubixing}
-                title="Lu Bixing - Can Ci Pin"
-              // description="A 3D puzzle game built with Elm-lang and WebGL. It tells a story about the inner world of a girl with fear of crowds and how she gradually discovers the goodwell in people's heart."
-              />
-            </Col>
-            <Col md={6} className="project-card">
-              <GalleryCard
-                imgPath={linjingheng}
-                title="Lin Jingheng - Can Ci Pin"
               // description="A 3D puzzle game built with Elm-lang and WebGL. It tells a story about the inner world of a girl with fear of crowds and how she gradually discovers the goodwell in people's heart."
               />
             </Col>
