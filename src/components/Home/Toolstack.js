@@ -7,6 +7,7 @@ import {
   SiLatex,
   SiAdobepremierepro,
   SiAdobephotoshop,
+  SiJirasoftware,
 } from "react-icons/si";
 
 function Toolstack() {
@@ -29,6 +30,9 @@ function Toolstack() {
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <DiGit />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiJirasoftware />
       </Col>
     </Row>
   );
