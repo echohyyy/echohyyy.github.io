@@ -8,6 +8,7 @@ import mcareer from "../../Assets/Projects/mcareer.png";
 import raveler from "../../Assets/Projects/raveler.png";
 import ask485 from "../../Assets/Projects/ask485.png";
 import unravel from "../../Assets/Projects/unravel.png";
+import csesimulator from "../../Assets/Projects/cseVRSimulator.png"
 
 function Projects() {
   return (
@@ -52,6 +53,17 @@ function Projects() {
               description="A 3D puzzle game built with Elm-lang and WebGL. It tells a story about the inner world of a girl with fear of crowds and how she gradually discovers the goodwell in people's heart."
               ghLink="https://github.com/Hilbert-Yaa/elm-unravel"
               demoLink="https://hilbert-yaa.github.io/elm-unravel/"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={csesimulator}
+              isBlog={false}
+              title="CSE VR Project"
+              description="A VR project that simulates CSE students' life at Umich."
+              // ghLink="https://github.com/soumyajit4419/Plant_AI"
+              demoLink="https://youtu.be/DkQEhOIJeu8"
             />
           </Col>
 
