@@ -18,6 +18,7 @@ import {
   SiUnity,
   SiElm,
   SiOcaml,
+  SiUnrealengine,
 } from "react-icons/si";
 
 function Techstack() {
@@ -46,6 +47,9 @@ function Techstack() {
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiOcaml />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiUnrealengine />
       </Col>
     </Row>
   );
