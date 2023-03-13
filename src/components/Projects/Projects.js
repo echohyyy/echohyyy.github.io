@@ -8,6 +8,7 @@ import mcareer from "../../Assets/Projects/mcareer.png";
 import raveler from "../../Assets/Projects/raveler.png";
 import ask485 from "../../Assets/Projects/ask485.png";
 import unravel from "../../Assets/Projects/unravel.png";
+import a2go from "../../Assets/Projects/argo.png";
 import csesimulator from "../../Assets/Projects/cseVRSimulator.png"
 
 function Projects() {
@@ -67,6 +68,16 @@ function Projects() {
             />
           </Col>
 
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={a2go}
+              isBlog={false}
+              title="A2-go! Project"
+              description="An educational and athletics mobile application marketed towards tourists visiting Ann Arbor. The app seeks to educate visitors on the area’s history, institutions, venues, and activity, while also getting them out and about for physical exercise and socialization."
+              // ghLink="https://github.com/soumyajit4419/Plant_AI"
+              demoLink="https://youtu.be/yW5PcPxd1QA"
+            />
+          </Col>
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={mcareer}
