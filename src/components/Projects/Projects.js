@@ -62,8 +62,8 @@ function Projects() {
               imgPath={csesimulator}
               isBlog={false}
               title="CSE VR Project"
-              description="A VR project that simulates CSE students' life at Umich."
-              // ghLink="https://github.com/soumyajit4419/Plant_AI"
+              description="A VR virtual tour that simulates CSE students' life at UMich. You can relives the days in the familiar lab room and play with the objects in it."
+              // ghLink="https://github.com/soumyajit4419/Plant_AI" 
               demoLink="https://youtu.be/DkQEhOIJeu8"
             />
           </Col>
