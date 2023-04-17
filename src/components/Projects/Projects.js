@@ -10,6 +10,7 @@ import ask485 from "../../Assets/Projects/ask485.png";
 import unravel from "../../Assets/Projects/unravel.png";
 import a2go from "../../Assets/Projects/argo.png";
 import csesimulator from "../../Assets/Projects/cseVRSimulator.png"
+import RSview from "../../Assets/Projects/RSview.png"
 
 function Projects() {
   return (
@@ -59,12 +60,22 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={csesimulator}
+              imgPath={RSview}
               isBlog={false}
               title="CSE VR Project"
               description="A VR virtual tour that simulates CSE students' life at UMich. You can relives the days in the familiar lab room and play with the objects in it."
               // ghLink="https://github.com/soumyajit4419/Plant_AI" 
               demoLink="https://youtu.be/DkQEhOIJeu8"
+            />
+
+          </Col><Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={csesimulator}
+              isBlog={false}
+              title="Restaurant Simulator VR Project"
+              description="A VR restaurant simulator combining the mechanics of a traditional cooking and farming game. It aims to achieve educational and training purpose by showing the complete food supply chain, from raw material growth to food preparation."
+              // ghLink="https://github.com/soumyajit4419/Plant_AI" 
+              demoLink="https://p3-devlog.webflow.io/"
             />
           </Col>
 
