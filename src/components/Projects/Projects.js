@@ -127,8 +127,8 @@ function Projects() {
             <ProjectCard
               imgPath={a2go}
               isBlog={false}
-              title="A2-go! Project"
-              description="An educational and athletics mobile application marketed towards tourists visiting Ann Arbor. The app seeks to educate visitors on the area’s history, institutions, venues, and activity, while also getting them out and about for physical exercise and socialization."
+              title="A2-go! AR Project"
+              description="An educational and athletics Augmented Reality mobile application marketed towards tourists visiting Ann Arbor. The app seeks to educate visitors on the area’s history, institutions, venues, and activity, while also getting them out and about for physical exercise and socialization."
               // ghLink="https://github.com/soumyajit4419/Plant_AI"
               demoLink="https://youtu.be/yW5PcPxd1QA"
             />
@@ -138,7 +138,7 @@ function Projects() {
               imgPath={mcareer}
               isBlog={false}
               title="MCareer"
-              description="An mobile application prototype to support undergraduate students' career development. We conducted a user-centered design process and developed the prototype with Figma."
+              description="An UI/UX design project with a mobile application prototype to support undergraduate students' career development. We conducted a user-centered design process and developed the prototype with Figma."
               // ghLink="https://github.com/soumyajit4419/Plant_AI"
               demoLink="https://www.youtube.com/watch?v=j6whB2uk0IU"
             />
