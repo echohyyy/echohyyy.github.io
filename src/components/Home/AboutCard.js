@@ -9,8 +9,8 @@ function AboutCard() {
         <blockquote className="blockquote mb-0">
           <p style={{ textAlign: "justify" }}>
             Hi Everyone, I am <span className="purple">Yi He</span> (she/her/hers).
-            <br />A senior undergraduate pursuing BS in Computer Science at <span className="purple">University of Michigan</span>, with a dual-degree in Electrical and Computer Engineering at <span className="purple">Shanghai Jiao Tong University</span>.
-            <br />
+            <br />A Master's student pursuing MS in Information Science at <span className="purple">University of Pittsburgh</span>.
+            <br />Prior to that I have received my B.S. in Computer Science at <span className="purple">University of Michigan</span>, and a B.E. in Electrical and Computer Engineering at <span className="purple">Shanghai Jiao Tong University</span>.
             <br />
             Apart from coding, some other activities that I love to do!
           </p>
