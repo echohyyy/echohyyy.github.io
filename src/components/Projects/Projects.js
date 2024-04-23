@@ -6,8 +6,6 @@ import blackwhite from "../../Assets/Projects/blackwhite.png";
 import insta485 from "../../Assets/Projects/insta485.png";
 import mcareer from "../../Assets/Projects/mcareer.png";
 import raveler from "../../Assets/Projects/raveler.png";
-import forum from "../../Assets/Projects/Android.png";
-import detoxifier from "../../Assets/Projects/Detoxifier.png";
 import ask485 from "../../Assets/Projects/ask485.png";
 import unravel from "../../Assets/Projects/unravel.png";
 import a2go from "../../Assets/Projects/argo.png";
@@ -47,27 +45,7 @@ function Projects() {
             // demoLink="https://blogs.soumya-jit.tech/"      <--------Please include a demo link here 
             />
           </Col>
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={detoxifier}
-              isBlog={false}
-              title="Text Detoxifier Model"
-              description="Developed a supervised machine-learning model with attention mechanisms using Pytorch and 'paradetox' dataset, targeting text detoxification. "
-              ghLink="https://github.com/INFCode/448-Project"
-            // demoLink="https://blogs.soumya-jit.tech/"      <--------Please include a demo link here 
-            />
-          </Col>
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={forum}
-              isBlog={false}
-              title="Chinese Indie Game Platform"
-              description="Developed an Android mobile platform with forum, game demo platform, chatrooms, user portfolio, etc. "
-              ghLink="https://github.com/minglong-yuan/Chinese-Exploratory-Indie-Game-Platform"
-            // demoLink="https://blogs.soumya-jit.tech/"      <--------Please include a demo link here 
-            />
-          </Col>
-
+          
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={raveler}
