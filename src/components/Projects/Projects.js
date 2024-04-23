@@ -9,8 +9,8 @@ import raveler from "../../Assets/Projects/raveler.png";
 import ask485 from "../../Assets/Projects/ask485.png";
 import unravel from "../../Assets/Projects/unravel.png";
 import a2go from "../../Assets/Projects/argo.png";
-import csesimulator from "../../Assets/Projects/cseVRSimulator.png"
-import RSview from "../../Assets/Projects/RSview.png"
+import csesimulator from "../../Assets/Projects/cseVRSimulator.png";
+import RSview from "../../Assets/Projects/RSview.png";
 
 function Projects() {
   return (
@@ -22,30 +22,32 @@ function Projects() {
         </h1>
         <p style={{ color: "white" }}>
           Here are a few projects I've worked on recently.
-          <br />Due to academic integrety concerns, access to the implementation of some projects will be sent on request.
+          <br />
+          Due to academic integrety concerns, access to the implementation of
+          some projects will be sent on request.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={ask485}
+              imgPath={RSview}
               isBlog={false}
-              title="Web Search Engine"
-              description="A scalable search engine with features like  text analysis (tf-idf) and link analysis (PageRank), and parallel data processing with MapReduce."
-              ghLink="https://github.com/echohyyy/p5-search-engine"
-            // demoLink="https://blogs.soumya-jit.tech/"      <--------Please include a demo link here 
+              title="Restaurant Simulator (VR)"
+              description="A VR restaurant simulator combining the mechanics of a traditional cooking and farming game. It aims to achieve educational and training purpose by showing the complete food supply chain, from raw material growth to food preparation."
+              // ghLink="https://github.com/soumyajit4419/Plant_AI"
+              demoLink="https://p3-devlog.webflow.io/"
             />
           </Col>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={insta485}
+              imgPath={csesimulator}
               isBlog={false}
-              title="Instagram Replicate"
-              description="An Instagram clone implemented with client-side dynamic pages built with JavaScript, AJAX and REST API."
-              ghLink="https://github.com/echohyyy/p3-insta485-clientside"
-            // demoLink="https://blogs.soumya-jit.tech/"      <--------Please include a demo link here 
+              title="UMich Student Life Simulator (VR)"
+              description="A VR virtual tour that simulates CSE students' life at UMich. You can relives the days in the familiar lab room and play with the objects in it."
+              // ghLink="https://github.com/soumyajit4419/Plant_AI"
+              demoLink="https://youtu.be/DkQEhOIJeu8"
             />
           </Col>
-          
+
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={raveler}
@@ -81,36 +83,36 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={RSview}
-              isBlog={false}
-              title="Restaurant Simulator VR Project"
-              description="A VR restaurant simulator combining the mechanics of a traditional cooking and farming game. It aims to achieve educational and training purpose by showing the complete food supply chain, from raw material growth to food preparation."
-              // ghLink="https://github.com/soumyajit4419/Plant_AI" 
-              demoLink="https://p3-devlog.webflow.io/"
-            />
-          </Col>
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={csesimulator}
-              isBlog={false}
-              title="CSE VR Project"
-              description="A VR virtual tour that simulates CSE students' life at UMich. You can relives the days in the familiar lab room and play with the objects in it."
-              // ghLink="https://github.com/soumyajit4419/Plant_AI" 
-              demoLink="https://youtu.be/DkQEhOIJeu8"
-            />
-          </Col>
-
-
-          <Col md={4} className="project-card">
-            <ProjectCard
               imgPath={a2go}
               isBlog={false}
-              title="A2-go! AR Project"
+              title="A2-go! (AR)"
               description="An educational and athletics Augmented Reality mobile application marketed towards tourists visiting Ann Arbor. The app seeks to educate visitors on the area’s history, institutions, venues, and activity, while also getting them out and about for physical exercise and socialization."
               // ghLink="https://github.com/soumyajit4419/Plant_AI"
               demoLink="https://youtu.be/yW5PcPxd1QA"
             />
           </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={ask485}
+              isBlog={false}
+              title="Web Search Engine"
+              description="A scalable search engine with features like  text analysis (tf-idf) and link analysis (PageRank), and parallel data processing with MapReduce."
+              ghLink="https://github.com/echohyyy/p5-search-engine"
+              // demoLink="https://blogs.soumya-jit.tech/"      <--------Please include a demo link here
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={insta485}
+              isBlog={false}
+              title="Instagram Replicate"
+              description="An Instagram clone implemented with client-side dynamic pages built with JavaScript, AJAX and REST API."
+              ghLink="https://github.com/echohyyy/p3-insta485-clientside"
+              // demoLink="https://blogs.soumya-jit.tech/"      <--------Please include a demo link here
+            />
+          </Col>
+
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={mcareer}
@@ -121,9 +123,6 @@ function Projects() {
               demoLink="https://www.youtube.com/watch?v=j6whB2uk0IU"
             />
           </Col>
-
-
-
         </Row>
       </Container>
     </Container>
